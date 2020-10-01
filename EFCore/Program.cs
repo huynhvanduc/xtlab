@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Data.Entity;
+using System.Threading.Tasks;
 
 namespace EFCore
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //await ProductsContext.CreateDatabase();
+            context.products.Update(p);
+            Console.ReadKey();
         }
     }
 }
