@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET", "ConsoleApp1\ADONET.csproj", "{F7E0519A-50F6-4805-8667-339ED1DDA0EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADONET", "ConsoleApp1\ADONET.csproj", "{F7E0519A-50F6-4805-8667-339ED1DDA0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "FileBasic\Files.csproj", "{E932EF35-26E1-4ED0-A623-669E571413C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "FileBasic\Files.csproj", "{E932EF35-26E1-4ED0-A623-669E571413C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Collection", "List_Collection\List_Collection.csproj", "{583475C4-8A59-4729-9D3C-4D41F5364807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List_Collection", "List_Collection\List_Collection.csproj", "{583475C4-8A59-4729-9D3C-4D41F5364807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore", "EFCore\EFCore.csproj", "{C4D3FD90-EAA0-4B60-9677-D1BF23948D76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore", "EFCore\EFCore.csproj", "{C4D3FD90-EAA0-4B60-9677-D1BF23948D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore2", "EFCore2\EFCore2.csproj", "{3FB11273-7E0A-4E80-8A5D-8C88CC6A9B9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C4D3FD90-EAA0-4B60-9677-D1BF23948D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D3FD90-EAA0-4B60-9677-D1BF23948D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D3FD90-EAA0-4B60-9677-D1BF23948D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB11273-7E0A-4E80-8A5D-8C88CC6A9B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB11273-7E0A-4E80-8A5D-8C88CC6A9B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB11273-7E0A-4E80-8A5D-8C88CC6A9B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB11273-7E0A-4E80-8A5D-8C88CC6A9B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

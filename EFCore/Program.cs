@@ -9,8 +9,6 @@ namespace EFCore
         static async Task Main(string[] args)
         {
             //await ProductsContext.CreateDatabase();
-            context.products.Update(p);
-            Console.ReadKey();
         }
     }
 }
